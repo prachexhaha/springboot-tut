@@ -78,3 +78,17 @@ this is an example of html form - `return "<h1>prachex shrama</h1>";`
 5) concept of DI (dependency injection) is used.
 
 
+### service layer
+
+this layer handles all the services 
+
+### DAO layer 
+hibernate layer, stores stuff
+it might have mySQL connectors
+
+Hibernate framework - springboot JPA (java persistance api) - whenever we have to make a java project based on CRUD operations, this JPA repo has all the concerned queries written for it.
+class is mapped to a table, and the talking is done using an object which is called entity.
+
+data is recieved as a model(class itself).
+ 
+whatever information the user wants is wrapped into a model(data binding) -> recieved by the controller -> stored by the help of service -> entity class is made that will store into the table.

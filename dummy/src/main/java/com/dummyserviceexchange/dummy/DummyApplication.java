@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DummyApplication {
 
 	public static void main(String[] args) {
-		System.out.println(MyController.myMethod());
 		SpringApplication.run(DummyApplication.class, args);
 	}
 
